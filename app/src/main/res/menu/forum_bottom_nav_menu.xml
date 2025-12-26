@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:title="Forums"
+        android:id="@+id/forum"
+        android:icon="@drawable/baseline_forum_24"
+        />
+    <item
+        android:title="Start Discussion"
+        android:id="@+id/create"
+        android:icon="@drawable/baseline_post_add_24"
+        />
+
+
+</menu>

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".userprofile.CreateUserProfile"
+    android:padding="20dp"
+    android:isScrollContainer="true"
+    >
+
+    <TextView
+        android:layout_marginTop="46dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text= "User Profile"
+        android:textSize="30sp"
+        android:textStyle="bold"
+
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <TextView
+            android:id="@+id/tv_profile_username"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text= "Username"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_weight="4"
+            />
+        <Button
+            android:id="@+id/btn_profile_edit_username"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Edit"
+            />
+    </LinearLayout>
+
+
+    <EditText
+        android:id="@+id/et_profile_display_name"
+        android:inputType="text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Display Name"
+        />
+
+    <EditText
+        android:id="@+id/et_profile_bio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textMultiLine"
+        android:hint="Bio"
+        android:lines="5"
+        android:gravity="top"
+        />
+    <EditText
+        android:id="@+id/et_profile_link"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Link"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        >
+        <ImageView
+            android:id="@+id/iv_profile_image"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            />
+        <Button
+            android:id="@+id/btn_profile_select_profile_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Select Profile Image"
+
+            />
+    </LinearLayout>
+
+
+
+    <Button
+        android:id="@+id/btn_profile_update_profile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Update Profile"
+
+        />
+
+    <Button
+        android:id="@+id/btn_profile_finish"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Finish Setup"
+        android:visibility="gone"
+
+        />
+</LinearLayout>

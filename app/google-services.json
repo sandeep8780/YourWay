@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "122377657992",
+    "project_id": "yourway-87d86",
+    "storage_bucket": "yourway-87d86.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:122377657992:android:0e8be83a40678b1627893d",
+        "android_client_info": {
+          "package_name": "com.example.yourway"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDdrBJm_7tXTm-90iIt4h84jDGdbhvK2Cs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

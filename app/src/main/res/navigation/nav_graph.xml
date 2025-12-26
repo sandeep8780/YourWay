@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/forumListFragment">
+
+
+
+    <fragment
+        android:id="@+id/forumListFragment"
+        android:name="com.example.yourway.forum.ForumListFragment"
+        android:label="Forum List"
+        tools:layout="@layout/fragment_forum_list">
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/forumDetailFragment"
+        android:name="com.example.yourway.forum.ForumDetailFragment"
+        android:label="Forum Details"
+        tools:layout="@layout/fragment_forum_detail" />
+    <fragment
+        android:id="@+id/createForumFragment"
+        android:name="com.example.yourway.forum.CreateForumFragment"
+        android:label="fragment_create_forum"
+        tools:layout="@layout/fragment_create_forum" />
+</navigation>
